@@ -54,3 +54,18 @@
   433  ./organizador.sh 
   434  nano organizador.sh 
   435  nano perfil_sistema.sh
+  436  git init
+  437  git --global 
+  438  git --global user.name "Daniel Ortiz"
+  439  git config --global user.name "Daniel Ortiz"
+  440  git config --global user.email "elbauldelerudito@gmail.com"
+  441  git add .
+  442  history
+  443  git add .
+  444  git commit -m "taller menos evidencias"
+  445  git git branch -M main
+  446  git init
+  447  git branch -M main
+  448  git remote add origin https://github.com/Sillytsud/Taller4.git
+  449  git push -u origin main
+  450  history
