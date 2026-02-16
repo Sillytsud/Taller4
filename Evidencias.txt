@@ -1,0 +1,56 @@
+  380  mkdir Taller4_000430889
+  381  cd Taller4_000430889/
+  382  touch Evidencias.txt
+  383  echo "Acceso COncedido" > confidencial.sh
+  384  touch bitacora.txt
+  385  ls -l
+  386  chmod 000 confidencial.sh 
+  387  cat confidencial.sh 
+  388  nano confidencial.sh 
+  389  sh ./confidencial.sh 
+  390  chmod 640 confidencial.sh 
+  391  mkdir CajaFuerte
+  392  chmod 777 CajaFuerte/
+  393  cd CajaFuerte/
+  394  touch oro.txt 
+  395  cd..
+  396  cd ..
+  397  cd CajaFuerte/
+  398  chmod 400 oro.txt 
+  399  cd ..
+  400  chmod 555 CajaFuerte/
+  401  cd CajaFuerte/
+  402  rm oro.txt 
+  403  cd ..
+  404  touch perfil_sistema.sh
+  405  nano perfil_sistema.sh 
+  406  chmod +x perfil_sistema.sh 
+  407  sh ./perfil_sistema.sh 
+  408  touch datos1.txt datos2.txt notas.txt
+  409  ls
+  410  touch organizador.sh
+  411  nano organizador.sh 
+  412  nano perfil_sistema.sh 
+  413  sh ./perfil_sistema.sh 
+  414  nano perfil_sistema.sh 
+  415  cd Taller4_000430889/
+  416  sh ./perfil_sistema.sh 
+  417  cd Taller4_000430889/
+  418  chmod 777 perfil_sistema.sh
+  419  nano perfil_sistema.sh
+  420  sh ./perfil_sistema.sh 
+  421  nano perfil_sistema.sh 
+  422  cd Taller4_000430889/
+  423  nano perfil_sistema.sh
+  424  sh ./perfil_sistema.sh 
+  425  nano perfil_sistema.sh
+  426  chmod +x perfil_sistema.sh
+  427  sh ./perfil_sistema.sh 
+  428  chmod +x organizador.sh 
+  429  ./organizador.sh 
+  430  chmod 777 organizador.sh 
+  431  nano organizador.sh 
+  432  chmod +x organizador.sh 
+  433  ./organizador.sh 
+  434  nano organizador.sh 
+  435  nano perfil_sistema.sh
