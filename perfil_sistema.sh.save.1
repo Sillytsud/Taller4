@@ -1,0 +1,23 @@
+
+
+
+#!/bin/bash/
+
+echo "==== PERFIL DEL SISTEMA ===="
+
+echo "Usuario actual: $USER"
+
+nombre_maquina="$(hostname)"
+
+echo "Nombre de la maquina: $nombre_maquina"
+
+el_bash="$(bash)"
+
+echo "Ubicacion de bash: $el_bash"
+
+echo "Tiempo encendido: $(uptime -p)"
+
+FECHA=$(date +%y-%m-%d)
+mkdir="Backup_$FECHA"
+
+echo "Carpeta Backup_$FECHA creada correctamente"

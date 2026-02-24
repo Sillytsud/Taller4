@@ -1,0 +1,137 @@
+  380  mkdir Taller4_000430889
+  381  cd Taller4_000430889/
+  382  touch Evidencias.txt
+  383  echo "Acceso COncedido" > confidencial.sh
+  384  touch bitacora.txt
+  385  ls -l
+  386  chmod 000 confidencial.sh 
+  387  cat confidencial.sh 
+  388  nano confidencial.sh 
+  389  sh ./confidencial.sh 
+  390  chmod 640 confidencial.sh 
+  391  mkdir CajaFuerte
+  392  chmod 777 CajaFuerte/
+  393  cd CajaFuerte/
+  394  touch oro.txt 
+  395  cd..
+  396  cd ..
+  397  cd CajaFuerte/
+  398  chmod 400 oro.txt 
+  399  cd ..
+  400  chmod 555 CajaFuerte/
+  401  cd CajaFuerte/
+  402  rm oro.txt 
+  403  cd ..
+  404  touch perfil_sistema.sh
+  405  nano perfil_sistema.sh 
+  406  chmod +x perfil_sistema.sh 
+  407  sh ./perfil_sistema.sh 
+  408  touch datos1.txt datos2.txt notas.txt
+  409  ls
+  410  touch organizador.sh
+  411  nano organizador.sh 
+  412  nano perfil_sistema.sh 
+  413  sh ./perfil_sistema.sh 
+  414  nano perfil_sistema.sh 
+  415  cd Taller4_000430889/
+  416  sh ./perfil_sistema.sh 
+  417  cd Taller4_000430889/
+  418  chmod 777 perfil_sistema.sh
+  419  nano perfil_sistema.sh
+  420  sh ./perfil_sistema.sh 
+  421  nano perfil_sistema.sh 
+  422  cd Taller4_000430889/
+  423  nano perfil_sistema.sh
+  424  sh ./perfil_sistema.sh 
+  425  nano perfil_sistema.sh
+  426  chmod +x perfil_sistema.sh
+  427  sh ./perfil_sistema.sh 
+  428  chmod +x organizador.sh 
+  429  ./organizador.sh 
+  430  chmod 777 organizador.sh 
+  431  nano organizador.sh 
+  432  chmod +x organizador.sh 
+  433  ./organizador.sh 
+  434  nano organizador.sh 
+  435  nano perfil_sistema.sh
+  436  git init
+  437  git --global 
+  438  git --global user.name "Daniel Ortiz"
+  439  git config --global user.name "Daniel Ortiz"
+  440  git config --global user.email "elbauldelerudito@gmail.com"
+  441  git add .
+  442  history
+  443  git add .
+  444  git commit -m "taller menos evidencias"
+  445  git git branch -M main
+  446  git init
+  447  git branch -M main
+  448  git remote add origin https://github.com/Sillytsud/Taller4.git
+  449  git push -u origin main
+  450  history
+---------------//-------------------
+ 27  chmod 400 oro.txt
+   28  rm oro.txt
+   29  ls
+   30  rm oro.txt
+   31  cd ..
+   32  rm CajaFuerte/oro.txt
+   33  \tcd CajaFuerte
+   34  chmod 333 oro.txt
+   35  cd ..
+   36  rm CajaFuerte/oro.txt
+   37  git init
+   38  cd CarpetaSegura
+   39  mv Evidencias.txt bitacora.txt /Users/sillytsud/Downloads/Taller4-main
+   40  cd ..
+   41  ls -l
+   42  nano Evidencias.txt
+   20  nano perfil_sistema.sh
+   21  sh ./perfil_sistema.sh
+   22  nano perfil_sistema.sh
+   23  sh ./perfil_sistema.sh
+   24  ls -l
+   25  cd CarpetaSegura
+   26  ls
+   27  cd ..
+   28  sh ./organizador.sh
+   29  sh ./organizador.sh
+   30  rm test
+   31  rm -f test
+   32  rm -r test
+   33  ls
+   34  nano perfil_sistema.sh
+   35  sh ./perfil_sistema.sh
+   26  ls
+   27  cd ..
+   28  sh ./organizador.sh
+   29  sh ./organizador.sh
+   30  rm test
+   31  rm -f test
+   32  rm -r test
+   33  ls
+   34  nano perfil_sistema.sh
+   35  sh ./perfil_sistema.sh
+   36  history
+   37  ls
+   38  nano ./organizador.sh
+   39  ls -l CarpetaSegura
+   40  ls -l
+   41  sh ./organizador.sh
+   27  cd ..
+   28  sh ./organizador.sh
+   29  sh ./organizador.sh
+   30  rm test
+   31  rm -f test
+   32  rm -r test
+   33  ls
+   34  nano perfil_sistema.sh
+   35  sh ./perfil_sistema.sh
+   36  history
+   37  ls
+   38  nano ./organizador.sh
+   39  ls -l CarpetaSegura
+   40  ls -l
+   41  sh ./organizador.sh
+   42  history
+

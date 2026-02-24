@@ -1,0 +1,12 @@
+con el archivo confidencia.sh al estar en octal sh 000 no le permite hacer nada, al hacer el cat en
+el sh no permite hacerlo ya que tira acceso denegado y lo mismo pasa al hacer los otros comandos.
+
+el numero octal que me permite yo tener acceso a la edicion y la lectura es el 6 al owner, en el 
+grupo el 4 que me permite o permite a los miembros del grupo solo leerlo y para todos los demas 
+el 0 para que no tengan nada. 
+
+al hacer los cambios a lectura al owner poniendo cambiando el archivo a octal 4 lo unico que hace
+es que el archivo solo sea de lectura, solamente el archivo dentro de la carpeta, ahora al hacer
+los cambios de permisos a la carpeta esta solo permite que se hagan las acciones que tiene
+permitida la carpeta independientemente de los permisos que tengan los archivos dentro de esta 
+carpeta 
